@@ -1,0 +1,64 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://garfieldnate.github.io
+title: Garfield Nate
+subtitle: Big Fat Hairy Programmer
+author: Nate Glenn
+simple_search: https://www.google.com/search
+description: > # this means to ignore newlines until the next entry
+  Nate's personal and technical blog
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss: /atom.xml
+subscribe_email:
+# RSS feeds can list your email address if you like
+email:
+
+# ----------------------- #
+#   Jekyll Settings    #
+# ----------------------- #
+
+highlighter: pygments
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+# Github repositories
+github_user: garfieldnate
+github_repo_count: 0
+github_show_profile_link: true
+github_skip_forks: true
+
+# Twitter
+twitter_user: garfieldnate
+twitter_tweet_button: true
+
+# Google +1
+google_plus_one: true
+google_plus_one_size: medium
+
+# Google Plus Profile
+# Hidden: No visible button, just add author information to search results
+googleplus_user: garfieldnate
+googleplus_hidden: false
+
+# Pinboard
+pinboard_user:
+pinboard_count: 3
+
+# Delicious
+delicious_user:
+delicious_count: 3
+
+# Disqus Comments
+disqus_short_name: garfieldnate
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-26857949-3
+
+# Facebook Like
+facebook_like: true
