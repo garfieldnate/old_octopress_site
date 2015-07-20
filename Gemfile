@@ -11,6 +11,8 @@ group :jekyll_plugins do
     gem 'octopress-linkblog'
     # other versions cause "jekyll serve" to fail
     gem 'listen', '2.7.8'
+    # for compatibility with 'listen' version
+    gem 'celluloid', '0.16.0'
     # markdown processor
     gem 'rdiscount', '~> 2.0'
     # smartquotes, etc. for rdiscount
