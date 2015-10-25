@@ -6,7 +6,7 @@ sharing: true
 footer: true
 ---
 
-I'm Nate Glenn. I'm also known as garfieldnate on [GitHub](https://github.com/garfieldnate) or nglenn on [CPAN](https://metacpan.org/author/NGLENN). I studied linguistics and computer science at BYU, and now I live in Japan and study, program, and make house. My language of choice is generally Perl, but I use a lot of Java, as well. My areas of work have mostly involved text processing, NLP, or cognitive modeling.
+I'm Nate Glenn. I'm also known as garfieldnate on [GitHub](https://github.com/garfieldnate) or nglenn on [CPAN](https://metacpan.org/author/NGLENN). I live in Japan and work as a language processing engineer.
 
 Although this blog contains mostly programming-related articles, my interests vary and I may also write about:
 

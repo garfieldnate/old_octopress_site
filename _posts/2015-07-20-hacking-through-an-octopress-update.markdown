@@ -25,7 +25,7 @@ I think I ran into every possible problem, which was actually a good learning ex
     - The correct way to specify it is `null`
 * When trying to [install Pygments](http://jekyll-windows.juthilo.com/3-syntax-highlighting/) you get `LookupError: unknown encoding: cp65001`
     - Python doesn't normally accept cp65001 as utf-8, but they're close enough, probably
-    - Do `set PYTHONIOENCODING=utf-8` before running `python -m pip install pygments`
+    - Do `set PYTHONIOENCODING=utf-8` before running `python -m pip install pygments`; if that doesn't work (it broke for me on a Japanese computer), set the code page to ascii via `chcp 437` instead.
 * `Error:  undefined method '[]' for nil:NilClass` in pygments_code.rb
     - This is caused by Pygments returning nil; it will do this if the system call to Python takes too long. Maybe your machine is busy, or maybe it's just slow like mine.
     - To solve this, do `set MENTOS_TIMEOUT=100` so it won't time out. Then delete `.pygments-cache`, which will have saved that nil result.
