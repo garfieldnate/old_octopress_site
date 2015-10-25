@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "My Dream Planner, Come True, Almost"
+date: 2015-10-25T19:23:49+09:00
 categories:
 - programming
 - perl
