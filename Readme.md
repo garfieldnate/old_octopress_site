@@ -1,9 +1,16 @@
-To run an Octopress command, do:
+#Nate's Blog
 
-    set %MENTOS_TIMEOUT%=1000
-    bundle exec octopress ...
+Uses Octopress 3. See docs here:
 
-To generate and deploy:
+https://github.com/octopress/octopress
 
-    bundle exec jekyll build (--watch doesn't work right now)
-    bundle exec octopress deploy
+##Setup
+
+* Install Ruby
+* Install [Bundler](http://bundler.io/)
+* run `bundler` in the project directory
+
+#Deploying:
+
+    jekyll build
+    octopress deploy
