@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
 group :development do
-    gem 'jekyll', '~> 2.0'
-    gem 'octopress', '~> 3.0.0.rc'
+    gem 'jekyll', '~> 3.0'
+    gem 'pygments.rb'
+    gem 'jekyll-paginate'
+    gem 'octopress', '~> 3.0'
     gem 'octopress-image-tag'
     gem 'octopress-date-format'
     gem 'octopress-codeblock'

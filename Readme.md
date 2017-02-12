@@ -10,7 +10,13 @@ https://github.com/octopress/octopress
 * Install [Bundler](http://bundler.io/)
 * run `bundler` in the project directory
 
-#Deploying:
+##Running Octopress Commands
+
+The commands are listed [here](https://github.com/octopress/octopress). Run the commands with `bundle` like so:
+
+    bundle exec octopress [command]
+
+##Deploying:
 
     jekyll build
     octopress deploy

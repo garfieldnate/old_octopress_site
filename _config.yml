@@ -27,7 +27,8 @@ root: /
 permalink: /blog/:year/:month/:day/:title/
 
 highlighter: pygments
-plugins: plugins
+plugins_dir: plugins
+gems: [jekyll-paginate]
 markdown: rdiscount
 rdiscount:
   extensions:
