@@ -1,4 +1,7 @@
 ---
 layout: {{ layout }}
 title: "{{ title }}"
+categories:
+- cat1
+- cat2
 ---

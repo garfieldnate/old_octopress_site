@@ -2,4 +2,7 @@
 layout: {{ layout }}
 title: "{{ title }}"
 date: {{ date }}
+categories:
+- cat1
+- cat2
 ---
