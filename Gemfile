@@ -10,6 +10,7 @@ group :development do
     gem 'octopress-codeblock'
     gem 'octopress-quote-tag'
     gem 'octopress-linkblog'
+    gem 'octopress-hooks', '~> 2.6.2'
     # other versions cause "jekyll serve" to fail
     gem 'listen', '2.7.8'
     # for compatibility with 'listen' version

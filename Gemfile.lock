@@ -60,7 +60,7 @@ GEM
       colorator
     octopress-escape-code (2.0.6)
       octopress-hooks (~> 2.0)
-    octopress-hooks (2.6.1)
+    octopress-hooks (2.6.2)
       jekyll (>= 2.0)
     octopress-image-tag (1.1.0)
       jekyll
@@ -73,7 +73,7 @@ GEM
     pygments.rb (1.1.1)
       multi_json (>= 1.0.0)
     rb-fsevent (0.9.8)
-    rb-inotify (0.9.7)
+    rb-inotify (0.9.8)
       ffi (>= 0.5.0)
     rdiscount (2.1.8)
     redcarpet (3.4.0)
@@ -105,6 +105,7 @@ DEPENDENCIES
   octopress (~> 3.0)
   octopress-codeblock
   octopress-date-format
+  octopress-hooks (~> 2.6.2)
   octopress-image-tag
   octopress-linkblog
   octopress-quote-tag
